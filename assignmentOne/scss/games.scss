@@ -1,0 +1,73 @@
+#games-wrap {
+
+    width: 100%;
+    height: 1000px;
+    background-color: rgba($color: #c91530, $alpha: 0.5);
+    border: solid 14px #15c9ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    #games-img {
+        max-width: 829px;
+        max-height: 845px;
+        background-image: url(../images/games300-cropped.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }    
+} 
+
+.mobile {
+    display: none;
+    .program {
+        width: 375px;
+        height: 560px;
+        background-color: #15c9ae;
+        border: solid 14px #c91530;
+        background-image: url(../images/mobile-program.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;    
+    }
+    .patterns {
+        width: 375px;
+        height: 560px;
+        background-color: #15c9ae;
+        border: solid 14px #c91530;
+        background-image: url(../images/mobile-patterns.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+}
+    @media screen and (max-width: 800px) {
+    
+        #games-wrap {
+          display: none;
+
+        #games-img {
+          display: none;
+        }
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        .patterns {
+        display: block;
+        }
+    }
+    }

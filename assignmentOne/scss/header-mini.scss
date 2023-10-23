@@ -1,0 +1,89 @@
+.header--mini {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/bingotop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    border: solid 18px #141B56;
+}    
+    .subtitle {
+        width: auto;
+        font-family: "rig-solid-bold-inline-solo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4rem;
+
+        }
+
+        #home-hdng {
+            color: #8A2BE2;
+            text-decoration: overline 3px #141B56;
+            position: absolute;
+            top: 208px;
+            left: 0; 
+            right: 0;
+            background-image: url(../images/bingo-vintage-hero.jpeg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        
+            
+     }
+        #games-hdng {
+            text-align: center; 
+            color: #15c9ae;
+            text-decoration: overline 3px #141B56;
+            position: absolute;
+            top: 208px;
+            left: 0; 
+            right: 0;
+        }
+        #food-hdng {
+            text-align: center; 
+            color: #f7714c;
+            text-decoration: overline 3px #141B56;
+            position: absolute;
+            top: 208px;
+            left: 0; 
+            right: 0;
+
+        }
+        #venue-hdng {
+            text-align: center; 
+            color: #141B56;
+            text-decoration: overline 3px #141B56;
+            position: absolute;
+            top: 208px;
+            left: 0; 
+            right: 0;
+        }
+
+@media screen and (max-width: 600px) {
+    
+    .header--mini {
+        background-image: url(../images/mobile-bingotop.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        .subtitle {
+            
+            font-size: 14px;
+            // width: 360px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+    
+    #games-hdng,
+    #food-hdng, #venue-hdng{
+        font-size: 32px;
+        top: 190px;
+        }
+    }     
+}

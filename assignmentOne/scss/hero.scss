@@ -1,0 +1,37 @@
+.hero {
+    height: 30vh;
+    width: 100%;
+    background-image: url(../images/northsidekofcbingo.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 14px #141B56;
+    margin: 0 auto;
+
+}
+
+#hero-home {
+background-image: url(../images/NELogoHorizontal_web-2.png);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+
+.hero {
+        
+    background-image: url(../images/mini-header-mobile-430x100px.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }    
+}
+
+@media screen and (max-width: 375px) {
+
+    #hero-home {
+        max-width: 360px;
+        height: 125px;
+}    
+}
